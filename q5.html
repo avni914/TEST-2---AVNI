@@ -18,6 +18,12 @@ Create green space equal to the current font size around those labels. -->
     <h1 class="red-heading">This text is in red</h1>
     <h2 class="red-heading">... so is this sub-text</h2>
     <form action="http://localhost:3002/send" method="post">
+        <style>
+            label{
+                background: green;
+                padding: 1em;
+            }
+        </style>
         <p>
             <label class="green_label">Name: <input name="name" type="text" /></label>
         </p>
